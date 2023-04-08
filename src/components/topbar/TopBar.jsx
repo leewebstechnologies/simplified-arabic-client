@@ -43,7 +43,7 @@ const TopBar = () => {
               {user ? (
                 <img
                   className="topImg"
-                  src="https://cdn.britannica.com/66/188766-050-38F1436A/Mark-Zuckerberg-2010.jpg"
+                  src="https://images.pexels.com/photos/1858175/pexels-photo-1858175.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
                   alt="jeff bezos"
                 />
               ) : (

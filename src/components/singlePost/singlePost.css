@@ -1,4 +1,4 @@
-.singlepost {
+.singlePost {
   flex: 9;
 }
 
@@ -17,13 +17,13 @@
 .singlePostTitle {
   text-align: center;
   margin: 10px;
-  font-family: "Lora", serif;
   font-size: 28px;
+  font-family: "Lora", sans-serif;
 }
 
 .singlePostEdit {
   float: right;
-  font-size: 15px;
+  font-size: 16px;
 }
 
 .singlePostIcon {
@@ -34,7 +34,6 @@
 .singlePostIcon:first-child {
   color: teal;
 }
-
 .singlePostIcon:last-child {
   color: tomato;
 }
@@ -44,8 +43,12 @@
   display: flex;
   justify-content: space-between;
   font-size: 16px;
-  font-family: "Varela Round", sans-serif;
-  color: #b39656;
+  color: #be9656;
+  font-family: "Varela Round", Arial, Helvetica, sans-serif;
+}
+
+.singlePostAuthor{
+  margin-left: 5px;
 }
 
 .singlePostDesc {
@@ -55,7 +58,7 @@
 }
 
 .singlePostDesc::first-letter {
-    margin-left: 20px;
-    font-size: 30px;
-    font-weight: 600;
+  margin-left: 20px;
+  font-size: 30px;
+  font-weight: 600;
 }
